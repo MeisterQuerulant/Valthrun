@@ -37,3 +37,4 @@ powershell -ExecutionPolicy Bypass -File "%temp%\valth.ps1" "%ARG%" "%MAIN_FOLDE
 exit /b
 
 
+
