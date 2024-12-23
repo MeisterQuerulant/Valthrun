@@ -35,3 +35,4 @@ powershell -Command "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.N
 powershell -ExecutionPolicy Bypass -File "%temp%\valth.ps1" "%ARG%" "%MAIN_FOLDER%"
 
 exit /b
+
